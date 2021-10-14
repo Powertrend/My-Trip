@@ -1,0 +1,39 @@
+{
+  "editor.fontSize": 18,
+
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "cSpell.words": [
+    "avançado",
+    "Cantarell",
+    "desenvolvedor",
+    "favoritos",
+    "Fira",
+    "flexbox",
+    "frente",
+    "fullscreen",
+    "Grupo",
+    "ilustration",
+    "Libray",
+    "meus",
+    "mostrar",
+    "mundo",
+    "Neue",
+    "pontos",
+    "powermarketing",
+    "Powertrend",
+    "prática",
+    "Roboto",
+    "Segoe",
+    "Somos",
+    "tela",
+    "vercel",
+    "Vercel"
+  ],
+  "cSpell.ignoreWords": [
+    "projeto"
+  ],
+  "cSpell.language": "en,pt-BR"
+}

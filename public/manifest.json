@@ -1,0 +1,22 @@
+{
+  "name": "My Trips",
+  "short_name": "My Trips",
+  "icons": [
+    {
+      "src": "/img/powertrend-favicon-32x32.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/powertrend-favicon-32x32.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "background_color": "#06092B",
+  "description": "Um projeto para mostrar meus pontos favoritos no mundo.",
+  "display": "fullscreen",
+  "start_url": "/",
+  "theme_color": "#06092B"
+}
+
