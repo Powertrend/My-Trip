@@ -1,6 +1,5 @@
-//Eu removi o Popup para fazer o commit, quando voltar vou remover o comentário
-//import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import { MapContainer, TileLayer, Marker } from 'react-leaflet'
+
 //const position = [51.505, -0.09]
 
 //Declaração do Type Place
