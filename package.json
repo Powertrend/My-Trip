@@ -24,6 +24,7 @@
     "*.{js,css,md,ts,tsx}": "eslint --cache --fix"
   },
   "dependencies": {
+    "@styled-icons/evaicons-outline": "^10.34.0",
     "leaflet": "^1.7.1",
     "next": "11.1.2",
     "next-pwa": "^5.3.2",

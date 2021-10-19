@@ -1,8 +1,25 @@
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
-
+//Eu removi o Popup para fazer o commit, quando voltar vou remover o comentário
+//import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+import { MapContainer, TileLayer, Marker } from 'react-leaflet'
 //const position = [51.505, -0.09]
 
-const Map = () => (
+//Declaração do Type Place
+type Place = {
+  id: string
+  name: string
+  slug: string
+  location: {
+    latitude: number
+    longitude: number
+  }
+}
+
+//Declaração do MapProps places
+export type MapProps = {
+  places?: Place[]
+}
+
+const Map = ({ places }: MapProps) => (
   <MapContainer
     center={[0, 0]}
     zoom={3}
@@ -12,11 +29,18 @@ const Map = () => (
       attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
       url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
     />
-    <Marker position={[0, 0]}>
-      <Popup>
-        A pretty CSS3 popup. <br /> Easily customizable.
-      </Popup>
-    </Marker>
+
+    {places?.map(({ id, name, location }) => {
+      const { latitude, longitude } = location
+
+      return (
+        <Marker
+          key={`place-${id}`}
+          position={[latitude, longitude]}
+          title={name}
+        />
+      )
+    })}
   </MapContainer>
 )
 

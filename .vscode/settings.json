@@ -1,5 +1,6 @@
 {
   "editor.fontSize": 18,
+  "editor.fontFamily": "'Victor Mono', 'Fira Code'",
 
   "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
@@ -14,6 +15,7 @@
     "flexbox",
     "frente",
     "fullscreen",
+    "getbyrole",
     "Grupo",
     "ilustration",
     "Libray",
