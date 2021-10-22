@@ -11,6 +11,7 @@ function App({ Component, pageProps }: AppProps) {
         <link rel="shortcut icon" href="/img/powertrend-favicon-32x32.png" />
         <link rel="apple-touch-icon" href="/img/powertrend-favicon-32x32.png" />
         <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#06092B" />
         <link
           rel="stylesheet"
           href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
